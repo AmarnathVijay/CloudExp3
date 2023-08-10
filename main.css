@@ -1,0 +1,71 @@
+
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color:black;
+    background: linear-gradient(45deg, red, blue);
+  
+  
+  
+}
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color:#121111;
+    letter-spacing: 1px;
+}
+input{
+    flex: 1;
+    outline:none;
+    background: none;
+    padding: 10px;
+    font-weight: 14px;
+    
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color: white;
+    border-radius:10px;
+    padding:30px;
+
+}
+
+button{
+    margin-top:20px;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: bold;
+    padding: 16px 50px;
+    letter-spacing: 1px;
+    border: none;
+    background: rgb(233, 227, 227);
+    outline: none;
+    border-radius: 40px;
+ 
+    
+}
+
+button:hover{
+    background-color: rgb(199, 34, 34);
+    box-shadow: 0px 0px 5px rgb(199, 34, 34), 0px 0px 25px rgb(199, 34, 34);
+}
+#todoList{
+    color:black;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
